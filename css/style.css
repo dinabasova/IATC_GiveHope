@@ -8,7 +8,7 @@ body{
 .first_step{
     width: 100%;
     min-height: 600px;
-    background-image: url('../third_project/image/443.png');
+    background-image: url('../image/443.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
