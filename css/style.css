@@ -1,0 +1,232 @@
+body{
+    margin: 0px auto;
+    padding:0;
+}
+
+/* FIRST PARAGRAPH */
+
+.first_step{
+    width: 100%;
+    min-height: 600px;
+    background-image: url('../third_project/image/443.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.top_side1{
+    width: 100%;
+    min-height: 80px;
+}
+
+.left_side{
+    width: 45%;
+    min-height: 80px;
+    font-size: 25px;
+    font-family:tahoma;
+    color: white;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right_side{
+    width: 55%;
+    min-height: 80px;
+    font-size: 15px;
+    font-family:tahoma;
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    float: left;
+}
+
+.right_side ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.right_side ul li{
+    list-style-type: none;
+    float:left;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.right_side ul li a{
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+    padding: 4px;
+    transition: 0.5s;
+}
+
+.right_side ul li a:hover{
+    border-bottom: 2px solid #cfa5ff;
+    color: #cfa5ff;
+
+}
+
+.bottom_side1{
+    width: 100%;
+    min-height: 520px;
+    font-size: 50px;
+    color: white;
+    font-family: Chalkboard SE;
+    float: left;
+    text-align: center;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.center_side1{
+    width: 40%;
+    min-height: 520px;
+}
+
+.bottom_side1 span{
+    height: 150px;
+}
+
+.center_play{
+    width: 100%;
+    min-height:50px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: tahoma;
+    float: left;
+}
+
+.play{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px white solid;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* CIRCLE
+.bottom_side1 i{
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    border-radius: 50%;
+} */
+
+/* SECOND PARAGRAPH */
+.second_step{
+    width: 100%;
+    min-height: 350px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.center_side2{
+    width: 60%;
+    height: 273px;
+}
+
+.left_side2{
+    padding: 35px 0 30px 30px;
+    width: 50%;
+    min-height: 273px;
+    float: left;
+    box-sizing: border-box;
+    background-color: #825eaa;
+}
+
+.square1{ 
+    font-family: arial;
+    font-size: 10px; 
+    padding: 10px;
+    width: 27%;
+    min-height: 13px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+}
+
+.right_side2{
+    padding: 0px 0 30px 30px;
+    width: 50%;
+    min-height: 273px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.square2{ 
+    font-family: arial;
+    font-size: 10px; 
+    padding: 10px;
+    width: 18%;
+    min-height: 13px;
+    background-color: #825eaa;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* THIRD PARAGRAPH */
+
+.third_step{
+    width: 100%;
+    min-height: 200px;
+    margin-top: 80px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.center_side3{
+    width: 60%;
+    height: 120px;
+}
+
+.left_side3{
+    width: 33%;
+    min-height: 120px;
+    font-family: tahoma;
+    font-size: 13px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.middle_side3{
+    width: 33%;
+    min-height: 120px;
+    font-family: tahoma;
+    font-size: 13px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.right_side3{
+    width: 33%;
+    min-height: 120px;
+    font-family: tahoma;
+    font-size: 13px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.left_side3 span, .middle_side3 span, .right_side3 span{
+    color: #825eaa;
+    text-decoration:underline;
+}
+
+.left_side3 i, .middle_side3 i, .right_side3 i{
+    display: flex;
+    align-items: left;
+}
